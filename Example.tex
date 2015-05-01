@@ -1,0 +1,105 @@
+%!TEX encoding = UTF-8 Unicode  
+\documentclass{ZJUthesis}
+\usepackage[top=1in, bottom=1in, left=1.25in, right=1.25in]{geometry}   % 调整页边距
+\usepackage{amssymb}
+\setcounter{tocdepth}{3}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{colortbl}
+\usepackage{amsmath,epsfig,amssymb}
+\usepackage{amsfonts,amssymb}%,pxfonts}%txfonts}%,pxfonts}
+\usepackage{subfig}
+\usepackage{makeidx}  % allows for indexgeneration
+\usepackage{url}
+\usepackage{pst-node}
+\usepackage{pstricks}
+\usepackage{pstricks-add}
+\usepackage{booktabs}
+\usepackage{overpic}
+\usepackage{caption}
+\usepackage{textcomp}
+\usepackage{multirow}
+\usepackage{marvosym}  % 画笑脸用的
+
+
+
+
+\begin{document}
+
+
+
+% 章节标题左对齐
+\CTEXsetup[beforeskip={-5ex}, format={\bf\zihao{3}\flushleft}]{chapter}
+\CTEXsetup[beforeskip={-5ex}, format={\bf\zihao{-3}\flushleft}]{section}
+\CTEXsetup[beforeskip={-5ex}, format={\bf\zihao{-3}\flushleft}]{subsection}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 封面部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% 中文封面内容
+
+  \title{浙大光电系本科生毕业论文模板}
+  \author{菜鸟 \quad 308010xx}
+  \supervisor{XXX \quad 教授}
+  \major{信息工程(光电) 08级}
+  \institute{光电信息工程学系}
+
+
+  % 诚信承诺书
+  \classes{光电080X}
+  \studentid{308010xx}
+  \signitureyear{2012}
+  \signituremonth{05}
+  \signitureday{26}
+
+  % 封面
+  \maketitle
+
+  % 诚信承诺书
+  \makeenglishtitle
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 前言部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frontmatter
+
+
+
+
+
+  % 摘要
+  \include{abstract}
+
+  % 目录
+  \tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 正文部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter
+  \include{chap-intro}
+  \include{chap-methods}
+
+
+  % 附录
+  \appendix
+  \include{appendix-A}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 附件部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\backmatter
+
+  % 参考文献
+
+  \bibliography{refs}
+
+  % 致谢
+  \include{thanks}
+
+
+\end{document}

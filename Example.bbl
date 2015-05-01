@@ -1,0 +1,26 @@
+\begin{thebibliography}{1}
+
+\bibitem{knaus1981apache}
+W.A. Knaus, J.E. Zimmerman, D.P. Wagner, E.A. Draper, D.E. Lawrence, et~al.
+\newblock Apache-acute physiology and chronic health evaluation: a
+  physiologically based classification system.
+\newblock {\em Critical care medicine}, 9(8):591, 1981.
+
+\bibitem{website:challenge}
+PhysioNet.
+\newblock The physionet/computing in cardiology challenge 2012.
+\newblock \url{http://www.physionet.org/challenge/2012/}, May 2012.
+
+\bibitem{hug2009icu}
+C.W. Hug and P.~Szolovits.
+\newblock Icu acuity: Real-time models versus daily models.
+\newblock In {\em AMIA Annual Symposium Proceedings}, volume 2009, page 260.
+  American Medical Informatics Association, 2009.
+
+\bibitem{jobson2005applied}
+J.D. Jobson.
+\newblock {\em Applied multivariate data analysis: regression and experimental
+  design}, volume~1.
+\newblock Springer, 2005.
+
+\end{thebibliography}
